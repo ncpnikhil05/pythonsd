@@ -1,0 +1,8 @@
+def string(x):
+    space =[i for i in x if i ==' ']
+    print(len(space))
+
+string("We love India")
+String("N I K H I L")
+
+    

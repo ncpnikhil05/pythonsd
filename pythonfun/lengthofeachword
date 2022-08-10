@@ -1,0 +1,22 @@
+def word(x):
+    count = 0
+    for i in range(0, len(x)+1):
+     if x[i] != " ":
+      count = count + 1
+     else:
+        break
+    print("The length of first word is:",count)
+
+    count1 = 0
+    countx=count
+    for i in range(countx, len(x)+1):
+     if x[i] != " ":
+      count1 = count1 + 1
+     else:
+        break
+    print("The length of second  word is:",count1)
+
+word("cbcmd bcmdbmncb ")
+
+
+

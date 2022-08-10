@@ -1,0 +1,5 @@
+word = ["Append","Bytes","Code","Debug","Excute","fstring","google","Hashmap","i","love","py"]
+five=[i for i in word if len(i)<5]
+print(five)
+
+
